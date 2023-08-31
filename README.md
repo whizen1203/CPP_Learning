@@ -1,2 +1,1 @@
-# CPP_Learning
-A collection of self-study CPP-Learning 
+# 영상보며 공부했던 CPP 파일들 정리 및 추가 작업중입니다.
