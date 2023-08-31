@@ -1,0 +1,5 @@
+﻿  Shop.cpp
+C:\Users\joeje\Downloads\cpp_learning\CPP_LEARNING\Cpp_Learning\Cpp_Learning\Shop.cpp(42,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\joeje\Downloads\cpp_learning\CPP_LEARNING\Cpp_Learning\Cpp_Learning\Shop.cpp(62,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\joeje\Downloads\cpp_learning\CPP_LEARNING\Cpp_Learning\Cpp_Learning\Shop.cpp(73,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Cpp_Learning.vcxproj -> C:\Users\joeje\Downloads\cpp_learning\CPP_LEARNING\Cpp_Learning\Debug\Cpp_Learning.exe

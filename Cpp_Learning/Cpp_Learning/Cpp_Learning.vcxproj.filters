@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\1">
+      <UniqueIdentifier>{c078088a-b51b-4ab3-83a3-69f7ed6cefb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2">
+      <UniqueIdentifier>{166f5f24-c6ff-4dc7-aa5a-188f08d88c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3">
+      <UniqueIdentifier>{8133c817-ee73-4a31-807c-0c0d3d0979d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4">
+      <UniqueIdentifier>{3252906b-d23b-4c5f-9a70-79d3a9af7620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5">
+      <UniqueIdentifier>{79009029-a9b4-47ec-b746-3a147fad0e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\6">
+      <UniqueIdentifier>{d5eb32d0-f20d-4305-9ef6-c0d889f1ca73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\7">
+      <UniqueIdentifier>{2781d991-d159-4727-9e24-365afc38d26f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\8">
+      <UniqueIdentifier>{ff4850d3-6ec2-41ac-98a3-8585f0c5e38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\9">
+      <UniqueIdentifier>{61eb1b76-1113-49c3-9a62-2706ce62a50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10">
+      <UniqueIdentifier>{b1441c1c-9e13-4cd7-8631-3e48c3a470bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11">
+      <UniqueIdentifier>{55d47de2-eb59-4367-934a-842f77398bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\12">
+      <UniqueIdentifier>{f5f14b93-22a0-4eba-b4af-96f9adacbe30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\13">
+      <UniqueIdentifier>{e4d3565e-f6c9-43b3-8b39-a09e6f83b03f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14">
+      <UniqueIdentifier>{e6072d98-cda9-48aa-a9df-95258707718a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\15">
+      <UniqueIdentifier>{57f10112-f435-412b-9fff-6017390714a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\16">
+      <UniqueIdentifier>{61347494-3219-4f6f-b275-a24a9a946f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14\Catching_Thief">
+      <UniqueIdentifier>{3f2b467b-95d2-4852-a58f-84e7892bd56a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\17">
+      <UniqueIdentifier>{a334c959-db2e-47d7-b46f-7ed2b65e0f61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\17\Bingo">
+      <UniqueIdentifier>{0832e1fa-8588-4c1f-8494-c41342e83ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\18">
+      <UniqueIdentifier>{0863e92c-7224-43b4-a5fd-e1be21431198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\19">
+      <UniqueIdentifier>{d17f0746-2ed5-4ede-ba8c-a458c12872f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\19\Seotda">
+      <UniqueIdentifier>{10152e7a-7110-4f02-9d17-1288b29e117e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\19\BlackJack">
+      <UniqueIdentifier>{b752eaf8-55d1-4f12-a225-a85c6ccaaa8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\20">
+      <UniqueIdentifier>{5996fae9-eac4-4797-8f13-60f494c01e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\20\OOP">
+      <UniqueIdentifier>{3b5b2a16-17c5-4337-8a10-586137008870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\20\OOP\BlackJack">
+      <UniqueIdentifier>{d7fa7fd5-dae9-46ae-939b-5ac47ebaccda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\20\OOP\Seotda">
+      <UniqueIdentifier>{64f527e6-5758-4384-8b0b-621409cb58cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\20\OOP\ItemShop">
+      <UniqueIdentifier>{1167b255-ca61-4adf-b5ea-787c9287e10f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FirstClass.cpp">
+      <Filter>소스 파일\1</Filter>
+    </ClCompile>
+    <ClCompile Include="SecondClass.cpp">
+      <Filter>소스 파일\2</Filter>
+    </ClCompile>
+    <ClCompile Include="Day03.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="Day03_02.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="Day04_01.cpp">
+      <Filter>소스 파일\4</Filter>
+    </ClCompile>
+    <ClCompile Include="Day04_02.cpp">
+      <Filter>소스 파일\4</Filter>
+    </ClCompile>
+    <ClCompile Include="Day05_01.cpp">
+      <Filter>소스 파일\5</Filter>
+    </ClCompile>
+    <ClCompile Include="Day05_02.cpp">
+      <Filter>소스 파일\5</Filter>
+    </ClCompile>
+    <ClCompile Include="Day06_01.cpp">
+      <Filter>소스 파일\6</Filter>
+    </ClCompile>
+    <ClCompile Include="Day06_02.cpp">
+      <Filter>소스 파일\6</Filter>
+    </ClCompile>
+    <ClCompile Include="Day07_01.cpp">
+      <Filter>소스 파일\7</Filter>
+    </ClCompile>
+    <ClCompile Include="Day07_02.cpp">
+      <Filter>소스 파일\7</Filter>
+    </ClCompile>
+    <ClCompile Include="Day08_01.cpp">
+      <Filter>소스 파일\8</Filter>
+    </ClCompile>
+    <ClCompile Include="Day08_02.cpp">
+      <Filter>소스 파일\8</Filter>
+    </ClCompile>
+    <ClCompile Include="Day09_01.cpp">
+      <Filter>소스 파일\9</Filter>
+    </ClCompile>
+    <ClCompile Include="Day09_02.cpp">
+      <Filter>소스 파일\9</Filter>
+    </ClCompile>
+    <ClCompile Include="Day10_01.cpp">
+      <Filter>소스 파일\10</Filter>
+    </ClCompile>
+    <ClCompile Include="Day10_02.cpp">
+      <Filter>소스 파일\10</Filter>
+    </ClCompile>
+    <ClCompile Include="Day11_01.cpp">
+      <Filter>소스 파일\11</Filter>
+    </ClCompile>
+    <ClCompile Include="Day11_02.cpp">
+      <Filter>소스 파일\11</Filter>
+    </ClCompile>
+    <ClCompile Include="Day12.cpp">
+      <Filter>소스 파일\12</Filter>
+    </ClCompile>
+    <ClCompile Include="Day13.cpp">
+      <Filter>소스 파일\13</Filter>
+    </ClCompile>
+    <ClCompile Include="Day14_01.cpp">
+      <Filter>소스 파일\14</Filter>
+    </ClCompile>
+    <ClCompile Include="Day14_02.cpp">
+      <Filter>소스 파일\14</Filter>
+    </ClCompile>
+    <ClCompile Include="Day15_01.cpp">
+      <Filter>소스 파일\15</Filter>
+    </ClCompile>
+    <ClCompile Include="Day15_02.cpp">
+      <Filter>소스 파일\15</Filter>
+    </ClCompile>
+    <ClCompile Include="Day16_01.cpp">
+      <Filter>소스 파일\16</Filter>
+    </ClCompile>
+    <ClCompile Include="Day16_02.cpp">
+      <Filter>소스 파일\16</Filter>
+    </ClCompile>
+    <ClCompile Include="catching_thief.cpp">
+      <Filter>소스 파일\14\Catching_Thief</Filter>
+    </ClCompile>
+    <ClCompile Include="Day17_01.cpp">
+      <Filter>소스 파일\17</Filter>
+    </ClCompile>
+    <ClCompile Include="Day17_02.cpp">
+      <Filter>소스 파일\17</Filter>
+    </ClCompile>
+    <ClCompile Include="Bingo.cpp">
+      <Filter>소스 파일\17\Bingo</Filter>
+    </ClCompile>
+    <ClCompile Include="Day18_01.cpp">
+      <Filter>소스 파일\18</Filter>
+    </ClCompile>
+    <ClCompile Include="Day18_02.cpp">
+      <Filter>소스 파일\18</Filter>
+    </ClCompile>
+    <ClCompile Include="Day18_03.cpp">
+      <Filter>소스 파일\18</Filter>
+    </ClCompile>
+    <ClCompile Include="Seotda.cpp">
+      <Filter>소스 파일\19\Seotda</Filter>
+    </ClCompile>
+    <ClCompile Include="Day19.cpp">
+      <Filter>소스 파일\19</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackJack.cpp">
+      <Filter>소스 파일\19\BlackJack</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\20\OOP\BlackJack</Filter>
+    </ClCompile>
+    <ClCompile Include="Trump.cpp">
+      <Filter>소스 파일\20\OOP\BlackJack</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackJack_OOP.cpp">
+      <Filter>소스 파일\20\OOP\BlackJack</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\20\OOP\ItemShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>소스 파일\20\OOP\ItemShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>소스 파일\20\OOP\Seotda</Filter>
+    </ClCompile>
+    <ClCompile Include="SDPlayer.cpp">
+      <Filter>소스 파일\20\OOP\Seotda</Filter>
+    </ClCompile>
+    <ClCompile Include="Seotda_OOP.cpp">
+      <Filter>소스 파일\20\OOP\Seotda</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\20\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="Memo.txt">
+      <Filter>소스 파일\20\OOP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BlackJack_OOP.h">
+      <Filter>소스 파일\20\OOP\BlackJack</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>소스 파일\20\OOP</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>소스 파일\20\OOP</Filter>
+    </ClInclude>
+    <ClInclude Include="Trump.h">
+      <Filter>소스 파일\20\OOP\BlackJack</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\20\OOP\BlackJack</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>소스 파일\20\OOP\ItemShop</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>소스 파일\20\OOP\ItemShop</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>소스 파일\20\OOP\Seotda</Filter>
+    </ClInclude>
+    <ClInclude Include="SDPlayer.h">
+      <Filter>소스 파일\20\OOP\Seotda</Filter>
+    </ClInclude>
+    <ClInclude Include="Seotda_OOP.h">
+      <Filter>소스 파일\20\OOP\Seotda</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
