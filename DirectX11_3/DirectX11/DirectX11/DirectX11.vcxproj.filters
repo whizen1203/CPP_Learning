@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DirectX11.cpp" />
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ObCircle.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ObRect.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ObStar.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="SimpleMath.h" />
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObCircle.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObRect.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObStar.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h" />
+    <ClInclude Include="MainGame.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="좌표해상도.txt" />
+    <Text Include="삼각함수.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleMath.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{0fc4da9b-298c-476a-9df7-6c0655cb2da2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

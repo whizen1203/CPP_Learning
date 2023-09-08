@@ -1,0 +1,35 @@
+﻿  DirectX11.cpp
+  GameObject.cpp
+  MainGame.cpp
+  ObCircle.cpp
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObCircle.cpp(15,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObCircle.cpp(14,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObCircle.cpp(20,24): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObCircle.cpp(19,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObCircle.cpp(23,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObCircle.cpp(22,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ObRect.cpp
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObRect.cpp(14,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObRect.cpp(13,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObRect.cpp(16,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObRect.cpp(15,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObRect.cpp(18,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObRect.cpp(17,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObRect.cpp(20,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObRect.cpp(19,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObRect.cpp(22,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObRect.cpp(21,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ObStar.cpp
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObStar.cpp(15,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObStar.cpp(14,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObStar.cpp(17,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObStar.cpp(16,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObStar.cpp(19,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObStar.cpp(18,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObStar.cpp(21,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObStar.cpp(20,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObStar.cpp(23,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObStar.cpp(22,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObStar.cpp(25,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\LeeChaeYeon\20\DirectX11\DirectX11\ObStar.cpp(24,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DirectX11.vcxproj -> D:\LeeChaeYeon\20\DirectX11\x64\Debug\DirectX11.exe
