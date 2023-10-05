@@ -1,10 +1,18 @@
 #pragma once
-class Main : public Scene
+class LoadingScene : public Scene
 {
-private:
+public:
 	ObImage* img;
+	ObImage* img2;
+
+	ObRect* bar;
+
+	thread* th;
 
 public:
+	LoadingScene();
+	~LoadingScene();
+
 	virtual void Init() override;
 	virtual void Release() override; //«ÿ¡¶
 	virtual void Update() override;
@@ -12,3 +20,4 @@ public:
 	virtual void Render() override;
 	virtual void ResizeScreen() override;
 };
+
