@@ -32,12 +32,15 @@ WPARAM Window::Run(Scene* main)
 			main->Update();
 			main->LateUpdate();
 			CAM->Set();
+			LIGHT->Set();
 			D3D->SetRenderTarget();
 			D3D->Clear(app.background);
+			DWRITE->GetDC()->BeginDraw();
 			{
 				main->Render();
 				GUI->Render();
 			}
+			DWRITE->GetDC()->EndDraw();
 			D3D->Present();
 		}
 	}
@@ -57,6 +60,8 @@ WPARAM Window::Run(Scene* main)
 	SOUND->DeleteSingleton();
 	TEXTURE->DeleteSingleton();
 	SCENE->DeleteSingleton();
+	LIGHT->DeleteSingleton();
+	DWRITE->DeleteSingleton();
 
 	return msg.wParam;
 }

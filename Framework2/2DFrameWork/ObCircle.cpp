@@ -7,23 +7,24 @@ void ObCircle::CreateStaticMember()
     VertexPC* Vertex;
     Vertex = new VertexPC[360 * 3];
 
-    Color col1 = Color(0.0f, 0.0f, 0.0f, 1.0f);
-
     for (UINT i = 0; i < 360; i++)
     {
         Vertex[i * 3].position.x = 0.0f;
         Vertex[i * 3].position.y = 0.0f;
-        Vertex[i * 3].color = Color(1.0f, 1.0f, 1.0f, 1.0f);
+        //Vertex[i * 3].color = Color(1.0f, 1.0f, 1.0f, 1.0f);
+        Vertex[i * 3].color = Color(RANDOM->Float(), RANDOM->Float(), RANDOM->Float(), 1.0f);
 
         //0 1 2 ... 359
         Vertex[i * 3 + 1].position.x = cosf(i * ToRadian) * 0.5f;
         Vertex[i * 3 + 1].position.y = sinf(i * ToRadian) * 0.5f;
-        Vertex[i * 3 + 1].color = Color(0.0f, 0.0f, 0.0f, 1.0f);
+       // Vertex[i * 3 + 1].color = Color(0.0f, 0.0f, 0.0f, 1.0f);
+        Vertex[i * 3 + 1].color = Color(RANDOM->Float(), RANDOM->Float(), RANDOM->Float(), 1.0f);
 
         //1 2 3 .. 360
         Vertex[i * 3 + 2].position.x = cosf((i + 1) * ToRadian) * 0.5f;
         Vertex[i * 3 + 2].position.y = sinf((i + 1) * ToRadian) * 0.5f;
-        Vertex[i * 3 + 2].color = Color(0.0f, 0.0f, 0.0f, 1.0f);
+       // Vertex[i * 3 + 2].color = Color(0.0f, 0.0f, 0.0f, 1.0f);
+        Vertex[i * 3 + 2].color = Color(RANDOM->Float(), RANDOM->Float(), RANDOM->Float(), 1.0f);
     }
     //정점들이 버퍼로 옮겨지는 코드
     {
@@ -49,7 +50,6 @@ void ObCircle::CreateStaticMember()
 
     Vertex = new VertexPC[361];
 
-    //두가지 랜덤한 색 만들기
     for (UINT i = 0; i < 361; i++)
     {
         Vertex[i].color = Color(1.0f, 1.0f, 1.0f, 1.0f);

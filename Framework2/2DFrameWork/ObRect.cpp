@@ -32,6 +32,7 @@ void ObRect::CreateStaticMember()
 
     //CreateVertexBuffer
     {
+        //DESC : 서술형 구조체
         D3D11_BUFFER_DESC desc;
         desc = { 0 };
         desc.Usage = D3D11_USAGE_DEFAULT;//버퍼를 읽고 쓰는 방법
@@ -113,7 +114,6 @@ void ObRect::Render()
     UINT stride = sizeof(VertexPC);
     UINT offset = 0;
 
-   
     if (isFilled)
     {
         D3D->GetDC()->IASetVertexBuffers(0,

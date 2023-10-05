@@ -24,6 +24,14 @@ using namespace std;
 #pragma comment(lib, "d3dcompiler.lib")
 #pragma comment(lib, "dxgi.lib")
 
+//D2D
+#include <d2d1_1.h>
+#pragma comment(lib, "d2d1.lib")
+
+//Direct Write
+#include <dwrite.h>
+#pragma comment(lib, "dwrite.lib")
+
 //DirectXTk 
 #include "../Libs/DirectXTK/SimpleMath.h"
 using namespace DirectX;
@@ -88,6 +96,8 @@ extern Application app;//Extern Global
 #include "Texture.h"
 #include "Sound.h"
 #include "SceneManager.h"
+#include "Light.h"
+#include "DWrite.h"
 
 #include "VertexType.h"
 #include "Shader.h"
@@ -112,3 +122,5 @@ extern Application app;//Extern Global
 #define TEXTURE		Texture::GetInstance()
 #define SOUND		Sound::GetInstance()
 #define SCENE       SceneManager::GetInstance()
+#define LIGHT       Light::GetInstance()
+#define DWRITE      DWrite::GetInstance()

@@ -242,6 +242,14 @@ bool GameObject::Intersect(GameObject* ob)
 	return false;
 }
 
+bool GameObject::IntersectScreenMouse(Vector2 coord)
+{
+	coord.y = app.GetHalfHeight() - coord.y;
+	coord.x = coord.x - app.GetHalfWidth();
+
+	return Intersect(coord);
+}
+
 void GameObject::SetWorldPos(Vector2 worldPos)
 {
 	if (!P)

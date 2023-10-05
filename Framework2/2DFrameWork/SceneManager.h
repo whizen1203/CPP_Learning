@@ -5,7 +5,7 @@ private:
     bool                    isChanging = false;
     Scene *                 nextScene = nullptr;
     Scene *                 currentScene = nullptr;
-    map<string, Scene*>    scenes;
+    map<string, Scene*>     scenes;
 
     float changingTime = 0.0f;
 

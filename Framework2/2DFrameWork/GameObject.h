@@ -63,6 +63,7 @@ public:
 
 	bool Intersect(Vector2 coord);
 	bool Intersect(GameObject* ob);
+	bool IntersectScreenMouse(Vector2 coord);
 
 	//getter setter
 public:
