@@ -110,6 +110,56 @@ float4 PS(PixelInput input) : SV_TARGET //SV_TARGET Àº Å¸°ÙÀÌµÉ »ö±ò
     
     TextureColor = TextureColor + (input.color * 2.0f - 1.0f);
     
+    if (select.x == 0.0f)
+    {
+        int temp = 0;
+        
+        for (int i = 0; i < 10; i++)
+        {
+            float2 minus = input.position.xy - lights[i].screenPos;
+            float dis = minus.x * minus.x + minus.y * minus.y;
+            dis = sqrt(dis);
+            
+            temp += (dis < lights[i].radius);
+        }
+        
+        if (temp)
+        {
+            TextureColor.rgb += (inColor.rgb * 2.0f - 1.0f);
+        }
+        else
+        {
+            TextureColor.rgb += (outColor.rgb * 2.0f - 1.0f);
+        }
+    }
+    else
+    {
+        float sum = 0.0f;
+        
+        for (int i = 0; i < 10; i++)
+        {
+            float2 minus = input.position.xy - lights[i].screenPos;
+            float dis = minus.x * minus.x + minus.y * minus.y;
+            dis = sqrt(dis);
+            
+            float temp = 1.0f - saturate(dis / lights[i].radius);
+            
+            sum += temp;
+        }
+
+        if (sum)
+        {
+            TextureColor.rgb += (inColor.rgb * 2.0f - 1.0f);
+            TextureColor.rgb *= saturate(sum);
+        }
+        else
+        {
+            TextureColor.rgb += (outColor.rgb * 2.0f - 1.0f);
+        }
+    }
+    
+    TextureColor = saturate(TextureColor);
+    
     //µð¹ö±ë¸ðµå
     if (input.tileState == 1.0f)
     {

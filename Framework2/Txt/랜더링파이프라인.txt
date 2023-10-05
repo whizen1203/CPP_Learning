@@ -1,0 +1,27 @@
+렌더링 파이프라인
+
+파이프라인 : 이전 단계의 출력이 다음 단계의 입력으로 이어지는 구조
+
+DrawCall -> IA -> VS -> RS -> PS -> OM
+
+ID3D11 자원
+
+입력 조립기 (Input Assembler)
+자원들로부터 정점들을 긁어모으는 작업
+-> 정점 정의
+기본도형(Primitive) 연결성 정보
+-> 정점을 어떤 모양으로 이을건지
+
+정점 셰이더 (Vertex Shader)
+셰이더 Shader -> gpu 공간
+셰이더 언어 -> hlsl
+SRT 공간변환
+
+래스터라이저 (Rasterizer)
+픽셀화
+
+픽셀 셰이더 (Pixel Shader)
+픽셀의 색을 정하는 단계
+
+출력 병합기 (Output Merger)
+출력
