@@ -1,9 +1,9 @@
-
 struct VertexInput
 {
-    float4 position : POSITION0; //¿ëµµ
+    float4 position : POSITION0; //½Ã¸àÆ½ ¿ëµµ
     float4 color : COLOR0;
 };
+
 // PI
 struct PixelInput
 {

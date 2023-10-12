@@ -16,12 +16,14 @@ ID3D11 자원
 셰이더 Shader -> gpu 공간
 셰이더 언어 -> hlsl
 SRT 공간변환
+정점단위
 
 래스터라이저 (Rasterizer)
 픽셀화
 
 픽셀 셰이더 (Pixel Shader)
 픽셀의 색을 정하는 단계
+픽셀 단위
 
 출력 병합기 (Output Merger)
 출력
