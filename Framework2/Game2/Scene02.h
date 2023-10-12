@@ -4,8 +4,8 @@ class Scene02 : public Scene
 private:
 	ObTileMap* map;
 
-	ObCircle* cc;
-	ObCircle* cc2;
+	ObStar* cc;
+	ObStar* cc2;
 
 	//길찾기용 변수
 	vector<Tile*> PlWay;

@@ -7,13 +7,13 @@ void Scene02::Init()
 	map->Load();
 	map->CreateTileCost();
 
-	cc = new ObCircle;
-	cc->color;
+	cc = new ObStar;
 	cc->scale = Vector2(300.0f, 300.0f);
 
-	cc2 = new ObCircle;
+	cc2 = new ObStar;
 	cc2->scale = Vector2(300.0f, 300.0f);
 	cc2->SetWorldPosX(400.0f);
+	cc2->isFilled = false;
 
 	//img = new ObImage(L"Life.png");
 	img->scale = Vector2(70.0f, 70.0f);

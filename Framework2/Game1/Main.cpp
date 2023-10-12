@@ -3,6 +3,8 @@
 
 void Main::Init()
 {
+	LIGHT->light.lights[0].radius = 1000.0f;
+
 	map = new ObTileMap();
 	map->file = "TileMap01.txt";
 	map->Load();
@@ -52,6 +54,8 @@ void Main::Release()
 void Main::Update()
 {
 	ImGui::SliderFloat("Alpha", &player->run->color.w, 0.0f, 1.0f);
+
+	ImGui::SliderFloat("YRotation", &player->run->rotationY, 0.0f, PI);
 
 	if (INPUT->KeyPress(VK_LEFT))
 	{
