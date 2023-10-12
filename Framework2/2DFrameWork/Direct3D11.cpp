@@ -169,7 +169,7 @@ void Direct3D11::Create()
 		D3D11_RASTERIZER_DESC desc;
 		ZeroMemory(&desc, sizeof(D3D11_RASTERIZER_DESC));
 		desc.FillMode = D3D11_FILL_SOLID;
-		desc.CullMode = D3D11_CULL_NONE; 
+		desc.CullMode = D3D11_CULL_NONE;
 		desc.DepthBias = 0;
 		desc.FrontCounterClockwise = false; 
 		desc.DepthBiasClamp = 0;

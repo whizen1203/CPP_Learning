@@ -26,6 +26,7 @@ ID3D11ShaderResourceView* Texture::LoadTexture(wstring file)
         ScratchImage image;
         LoadFromWICFile(path.c_str(), WIC_FLAGS_NONE, nullptr, image);
 
+        //image.GetPixels();
         textureList[file].textureSize.x = image.GetMetadata().width;
         textureList[file].textureSize.y = image.GetMetadata().height;
 

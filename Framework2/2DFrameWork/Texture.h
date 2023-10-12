@@ -5,7 +5,7 @@ private:
     struct TextureNode
     {
         ID3D11ShaderResourceView* srv; //ÀÚ¿ø
-        Int2                        textureSize;
+        Int2                      textureSize;
     };
 
     //    first     second

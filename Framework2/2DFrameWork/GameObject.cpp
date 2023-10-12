@@ -42,6 +42,7 @@ void GameObject::CreateStaticMember()
 	basicShader = new Shader(L"1.Basic");
 	imageShader = new Shader(L"2.Image");
 	tileMapShader = new Shader(L"3.TileMap");
+
 	axisObject = new ObLine();
 }
 
@@ -85,7 +86,13 @@ void GameObject::Update()
 	T = Matrix::CreateTranslation(position.x, position.y,0.0f);
 	R2 = Matrix::CreateRotationZ(revolution);
 
-	RT = R * T * R2;
+	//RX = Matrix::CreateRotationX(rotationX);
+	RY = Matrix::CreateRotationY(rotationY);
+	//RX = Matrix::CreateFromYawPitchRoll(rotationY, rotationX, rotation);
+
+	//RT = R * T * R2;
+	RT = RY * R * T * R2;
+	//RT = RY * RX * R * T * R2;
 	
 	//P의 주소가 있으면
 	if (P)
@@ -126,7 +133,7 @@ void GameObject::Render()
 
 	WVP = WVP.Transpose();
 
-	{
+	{ //상수버퍼 갱신
 		D3D11_MAPPED_SUBRESOURCE mappedResource;
 		D3D->GetDC()->Map(WVPBuffer, 0, D3D11_MAP_WRITE_DISCARD, 0, &mappedResource);
 		memcpy_s(mappedResource.pData, sizeof(Matrix), &WVP, sizeof(Matrix));

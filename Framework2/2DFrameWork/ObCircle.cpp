@@ -11,20 +11,50 @@ void ObCircle::CreateStaticMember()
     {
         Vertex[i * 3].position.x = 0.0f;
         Vertex[i * 3].position.y = 0.0f;
-        //Vertex[i * 3].color = Color(1.0f, 1.0f, 1.0f, 1.0f);
-        Vertex[i * 3].color = Color(RANDOM->Float(), RANDOM->Float(), RANDOM->Float(), 1.0f);
+        Vertex[i * 3].color = Color(0.3333f, 0.3333f, 0.3333f, 1.0f);
+        //Vertex[i * 3].color = Color(RANDOM->Float(), RANDOM->Float(), RANDOM->Float(), 1.0f);
 
         //0 1 2 ... 359
         Vertex[i * 3 + 1].position.x = cosf(i * ToRadian) * 0.5f;
         Vertex[i * 3 + 1].position.y = sinf(i * ToRadian) * 0.5f;
        // Vertex[i * 3 + 1].color = Color(0.0f, 0.0f, 0.0f, 1.0f);
-        Vertex[i * 3 + 1].color = Color(RANDOM->Float(), RANDOM->Float(), RANDOM->Float(), 1.0f);
+        //Vertex[i * 3 + 1].color = Color(RANDOM->Float(), RANDOM->Float(), RANDOM->Float(), 1.0f);
 
         //1 2 3 .. 360
         Vertex[i * 3 + 2].position.x = cosf((i + 1) * ToRadian) * 0.5f;
         Vertex[i * 3 + 2].position.y = sinf((i + 1) * ToRadian) * 0.5f;
        // Vertex[i * 3 + 2].color = Color(0.0f, 0.0f, 0.0f, 1.0f);
-        Vertex[i * 3 + 2].color = Color(RANDOM->Float(), RANDOM->Float(), RANDOM->Float(), 1.0f);
+        //Vertex[i * 3 + 2].color = Color(RANDOM->Float(), RANDOM->Float(), RANDOM->Float(), 1.0f);
+    
+        // r->g
+        if (i < 120)
+        {
+            float color1 = i / 120.0f; //0 ~ 1
+            float color2 = (i + 1.0f) / 120.0f; //0 ~ 1
+
+            Vertex[i * 3 + 1].color = Color(1.0f - color1, color1, 0.0f, 1.0f);
+            Vertex[i * 3 + 2].color = Color(1.0f - color2, color2, 0.0f, 1.0f);
+        }
+        else if (i < 240) // g->b
+        {
+            float color1 = (i - 120.0f) / 120.0f; //0 ~ 1
+            float color2 = (i - 120.0f + 1.0f) / 120.0f; //0 ~ 1
+
+            Vertex[i * 3 + 1].color = Color(0.0f, 1.0f - color1, color1, 1.0f);
+            Vertex[i * 3 + 2].color = Color(0.0f, 1.0f - color2, color2, 1.0f);
+        }
+        else // b->r
+        {
+            float color1 = (i - 240.0f) / 120.0f; //0 ~ 1
+            float color2 = (i - 240.0f + 1.0f) / 120.0f; //0 ~ 1
+
+            Vertex[i * 3 + 1].color = Color(color1, 0.0f, 1.0f - color1, 1.0f);
+            Vertex[i * 3 + 2].color = Color(color1, 0.0f, 1.0f - color2, 1.0f);
+        }
+    
+    
+    
+    
     }
     //정점들이 버퍼로 옮겨지는 코드
     {

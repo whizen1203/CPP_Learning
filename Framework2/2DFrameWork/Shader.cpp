@@ -14,7 +14,8 @@ Shader::Shader(wstring file)
 
     D3D->GetDevice()->CreateVertexShader(VsBlob->GetBufferPointer(), VsBlob->GetBufferSize(),
         nullptr, &vertexShader);
-
+    
+    //InputLayout
     D3D11_INPUT_ELEMENT_DESC LayoutDesc[2];
 
     LayoutDesc[0] = { "POSITION",//시멘틱에서 정의한 자료형

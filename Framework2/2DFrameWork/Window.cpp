@@ -10,6 +10,7 @@ WPARAM Window::Run(Scene* main)
 	ObRect::CreateStaticMember();
 	ObLine::CreateStaticMember();
 	ObCircle::CreateStaticMember();
+	ObStar::CreateStaticMember();
 	ObImage::CreateStaticMember();
 	main->Init();
 	MSG msg = { 0 };
