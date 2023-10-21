@@ -13,6 +13,7 @@ bool IsMouseHoveringWindow()
 
 void Main::Init()
 {
+	LIGHT->light.lights[0].radius = 1000.0f;
 	map = new ObTileMap;
 	map->SetWorldPos(Vector2(-app.GetHalfWidth(), -app.GetHalfHeight()));
 
