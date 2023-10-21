@@ -20,7 +20,7 @@ void Main::Init()
 	
 	{
 		Scene02* temp = new Scene02;
-		temp->img = img;
+		//temp->img = img;
 		SCENE->AddScene("SC02", temp);
 	}
 
