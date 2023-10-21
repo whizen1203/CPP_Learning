@@ -193,10 +193,11 @@ void Direct3D11::Create()
 		desc.RenderTarget[0].DestBlend = D3D11_BLEND_INV_SRC_ALPHA; //1 - 0.3 -> 0.7
 		desc.RenderTarget[0].SrcBlend = D3D11_BLEND_SRC_ALPHA; // 0.3
 		desc.RenderTarget[0].BlendOp = D3D11_BLEND_OP_ADD;// 0.7 * dest + 0.3 * src
-		//a
+													  //a
 		desc.RenderTarget[0].DestBlendAlpha = D3D11_BLEND_ONE; // 1
 		desc.RenderTarget[0].SrcBlendAlpha = D3D11_BLEND_ZERO; // 0
 		desc.RenderTarget[0].BlendOpAlpha = D3D11_BLEND_OP_ADD; // 0 + 1
+		
 		device->CreateBlendState(&desc, &blendState);
 		deviceContext->OMSetBlendState(blendState, NULL, 0xFF);
 	}
