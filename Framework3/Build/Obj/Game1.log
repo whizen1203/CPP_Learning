@@ -1,0 +1,15 @@
+﻿  Boss.cpp
+  Bullet.cpp
+  Character.cpp
+  Cookie.cpp
+  Main.cpp
+  Player.cpp
+C:\Users\joeje\Downloads\cpp_learning\Framework28\Framework\Game1\Boss.cpp(8,37): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\joeje\Downloads\cpp_learning\Framework28\Framework\Game1\Boss.cpp(11,37): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\joeje\Downloads\cpp_learning\Framework28\Framework\Game1\Boss.cpp(161,38): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\joeje\Downloads\cpp_learning\Framework28\Framework\Game1\Cookie.cpp(13,62): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\joeje\Downloads\cpp_learning\Framework28\Framework\Game1\Cookie.cpp(20,68): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\joeje\Downloads\cpp_learning\Framework28\Framework\Game1\Cookie.cpp(28,65): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\joeje\Downloads\cpp_learning\Framework28\Framework\Game1\Cookie.cpp(36,74): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     C:\Users\joeje\Downloads\cpp_learning\Framework28\Framework\\Build\Game1.lib 라이브러리 및 C:\Users\joeje\Downloads\cpp_learning\Framework28\Framework\\Build\Game1.exp 개체를 생성하고 있습니다.
+  Game1.vcxproj -> C:\Users\joeje\Downloads\cpp_learning\Framework28\Framework\Build\Game1.exe
